@@ -15,10 +15,10 @@ Finally, I corrected the image reversing the skewed angle.
 Then I used edge detection to extract edge feature (which is usually like  white strip of light showing the orientation).
 Last, I applied hough tansform to detect the line and its orientation and corrected it.
 ***
-Original Image                                                                          De-skewed Image
+Original Image >>>> De-skewed Image
 <p>
-<img src="https://github.com/Bidur-Khanal/De-skew-scanned-pdf/blob/master/images/25.png" width="450" height="300"> 
-<img src="https://github.com/Bidur-Khanal/De-skew-scanned-pdf/blob/master/images/25%20corrected.png" width="450" height="300"> 
+<img src="https://github.com/Bidur-Khanal/De-skew-scanned-pdf/blob/master/images/25.png" width="420" height="300"> 
+<img src="https://github.com/Bidur-Khanal/De-skew-scanned-pdf/blob/master/images/25%20corrected.png" width="420" height="300"> 
 </p>
 
 ***
