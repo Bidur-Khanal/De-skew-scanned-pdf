@@ -19,8 +19,10 @@ Last, I applied hough tansform to detect the line and its orientation and correc
 <p>
 <img src="https://github.com/Bidur-Khanal/De-skew-scanned-pdf/blob/master/images/25.png" width="400" height="300"> 
 <img src="https://github.com/Bidur-Khanal/De-skew-scanned-pdf/blob/master/images/25%20corrected.png" width="400" height="300"> 
+</br>
 <em>Original Image</em> <em>De-skewed Image</em>
 </p>
+
 ***
 References:
 
