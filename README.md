@@ -3,21 +3,25 @@
 This repository includes basic python scripts to correct skewed pdf documents, written in ipynb notebooks.
 Here, I have used two different approaches to de-skew pdf documents:
 
-*Using Hough Line Transform*
-Here, I have used Hough Line Transform after OTSU binary thresholding for skewed angle detection.
+*Using Hough Line Transform
+ > Here, I have used Hough Line Transform after OTSU binary thresholding for skewed angle detection.
 Hough Line Transfrom is computationally sound and various libraries provide optimized functions to perform Hough Transform.
 Finally, I corrected the image reversing the skewed angle.
 
 
 
-*Using Fourier Transfrom + Hough Transform*
-Here, I first applied fourier transfrom to the image. In the Fourier domain image, each point represents a particular frequency contained in the spatial domain image.
+*Using Fourier Transfrom + Hough Transform
+ > Here, I first applied fourier transfrom to the image. In the Fourier domain image, each point represents a particular frequency contained in the spatial domain image.
 Then I used edge detection to extract edge feature (which is usually like  white strip of light showing the orientation).
 Last, I applied hough tansform to detect the line and its orientation and corrected it.
 ***
 
-<img src="https://github.com/Bidur-Khanal/De-skew-scanned-pdf/blob/master/images/25.png" width="400" height="300"> <em>Original Image</em><img src="https://github.com/Bidur-Khanal/De-skew-scanned-pdf/blob/master/images/25%20corrected.png" width="400" height="300"> <em>De-skewed Image</em>
-
+<p>
+<img src="https://github.com/Bidur-Khanal/De-skew-scanned-pdf/blob/master/images/25.png" width="400" height="300"> 
+<em>Original Image</em>
+<img src="https://github.com/Bidur-Khanal/De-skew-scanned-pdf/blob/master/images/25%20corrected.png" width="400" height="300"> 
+<em>De-skewed Image</em>
+</p>
 ***
 References:
 
